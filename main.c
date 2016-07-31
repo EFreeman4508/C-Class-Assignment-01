@@ -32,14 +32,14 @@ void TestFunction(TypeIdFn aStandardLibFn,
 int main()
 {
   RunTest(isspace);
-  /* RunTest(isdigit);
-     RunTest(isxdigit);
-     RunTest(islower); 
-     RunTest(isupper); 
-     RunTest(isalpha); 
-     RunTest(isalnum); 
-     RunTest(iscntrl); 
-     RunTest(isgraph); 
-     RunTest(isprint); 
-     RunTest(ispunct); */
+  RunTest(isdigit);
+  RunTest(isxdigit);
+  RunTest(islower); 
+  RunTest(isupper); 
+  RunTest(isalpha); 
+  RunTest(isalnum); 
+  RunTest(iscntrl); 
+  RunTest(isgraph); 
+  RunTest(isprint); 
+  RunTest(ispunct);
 }
